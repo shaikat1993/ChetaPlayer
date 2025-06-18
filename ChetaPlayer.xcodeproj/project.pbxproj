@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		926DF1172E0374C0008469AD /* chetaPlayer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 926DF1162E0374C0008469AD /* chetaPlayer.gif */; };
 		92C002AD2E00BB06004E802C /* Why You Should NEVER Take a Break ⧸ Funny animated short film.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 92C002AC2E00BB05004E802C /* Why You Should NEVER Take a Break ⧸ Funny animated short film.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		926DF1162E0374C0008469AD /* chetaPlayer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chetaPlayer.gif; sourceTree = "<group>"; };
 		92C0029E2E00BA6D004E802C /* ChetaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChetaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C002AC2E00BB05004E802C /* Why You Should NEVER Take a Break ⧸ Funny animated short film.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Why You Should NEVER Take a Break ⧸ Funny animated short film.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -37,6 +39,7 @@
 		92C002952E00BA6C004E802C = {
 			isa = PBXGroup;
 			children = (
+				926DF1162E0374C0008469AD /* chetaPlayer.gif */,
 				92C002AC2E00BB05004E802C /* Why You Should NEVER Take a Break ⧸ Funny animated short film.mp4 */,
 				92C002A02E00BA6D004E802C /* ChetaPlayer */,
 				92C0029F2E00BA6D004E802C /* Products */,
@@ -115,6 +118,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926DF1172E0374C0008469AD /* chetaPlayer.gif in Resources */,
 				92C002AD2E00BB06004E802C /* Why You Should NEVER Take a Break ⧸ Funny animated short film.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
