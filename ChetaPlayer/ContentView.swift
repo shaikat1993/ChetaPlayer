@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        // Use GeometryReader to get screen size and safe area insets for adaptive layout
+        GeometryReader {
+            let size = $0.size
+            let safeAreaInsets = $0.safeAreaInsets
+            
+            Home(size: size,
+                 safeArea: safeAreaInsets)
+                .preferredColorScheme(.dark)
         }
-        .padding()
     }
 }
 
